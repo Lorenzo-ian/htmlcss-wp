@@ -1,0 +1,74 @@
+body {
+    background-image: url(immagini/background.jpg);
+    background-size: cover;
+    width: 70%;
+    margin: auto;
+}
+
+/* Corpo header pagina */
+
+header {
+    background-image: url(immagini/sfondo.jpg);
+    height: 300px;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.menu {
+    background-color:white;
+    height: 60px;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+/* corpo centrale pagina */
+
+.sinistra  {
+    background-color: white;
+    height: 600px;
+    float: left;
+    width: 25%;
+    border-radius: 2%;
+}
+
+.centro {
+    background-color: white;
+    height: 350px;
+    float: left;
+    width: 45%;
+    margin: 0 5%;
+    border-radius: 2%;
+}
+
+.destra {
+    float: right;
+    width: 20%;
+}
+
+.layout {
+    background-color: white;
+    height: 350px;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 20%;
+    border-radius: 2%;
+}
+
+/* applico il clear ai float */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* footer */
+.foot {
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    border-radius: 2%;
+}
+
