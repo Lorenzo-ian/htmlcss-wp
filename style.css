@@ -8,18 +8,46 @@ body {
 /* Corpo header pagina */
 
 header {
-    background-image: url(immagini/sfondo.jpg);
-    height: 300px;
+    background-color: white;
+    height: 400px;
     position: relative;
     margin-bottom: 2%;
 }
 
+.sfondosuperiore {
+    background-image: url(immagini/sfondo.jpg);
+    width: 98%;
+    height: 82%;
+    background-size: cover;
+    margin: 1%;
+    position:absolute;
+}
+
 .menu {
-    background-color:white;
-    height: 60px;
+    background-color:gray;
+    height: 13%;
     position: absolute;
     bottom:0;
     width: 100%;
+}
+
+.tasti {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+
+.tastimenu {
+    width: 13.5%;
+    height: 100%;
+    display: inline-block;
+}
+
+.tastimenu p {
+    font-size: 15px;
+    text-align: center;
+
 }
 
 /* corpo centrale pagina */
