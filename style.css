@@ -66,6 +66,19 @@ header {
     float: left;
     width: 25%;
     border-radius: 2%;
+    text-align: center;
+    position: relative;
+}
+
+.sinistra h2 {
+    display: inline;
+    font-size: 35px;
+}
+
+.sinistra img {
+    top: 20px;
+    left: 0px;
+    position: absolute;
 }
 
 .centro {
